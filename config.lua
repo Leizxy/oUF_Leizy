@@ -13,7 +13,7 @@ boolean = {
 	show_boss = false
 }
 point = {
-	player = {"CENTER",UIParent,"CENTER",-300,-100},
+	player = {"CENTER",UIParent,"CENTER",-200,-300},
 	target = {"CENTER",UIParent,"CENTER",300,-100},
 	targettarget = {"CENTER",UIParent,"CENTER",0,-130},
 	pet = {"CENTER",UIParent,"CENTER",-300,-130},
@@ -23,15 +23,17 @@ point = {
 
 
 size = {
-	frameSize_1 = {Width = 240,Height = 30},
-	healthSize_1 = {Width = 200,Height = 20},
+	frameSize_1 = {Width = 300,Height = 20},
+	healthSize_1 = {Width = 300,Height = 8},
 	powerSize_1 = {Width = 200,Height = 20}
 }
 
 media = {
-	texture_1 = "Interface\\AddOns\\oUF_Leizy\\textures\\statusbar",
-	texture_2 = "Interface\\Buttons\\WHITE8x8"
+	texture_1 = "Interface\\Buttons\\WHITE8x8",
+	texture_2 = "Interface\\AddOns\\oUF_Leizy\\textures\\statusbar",
+	texture_3 = "Interface\\AddOns\\oUF_Leizy\\textures\\glow"
 }
+
 data.boolean = boolean
 data.point = point
 data.size = size

@@ -1,0 +1,9 @@
+## Interface: 70000
+## Title: oUF_Leizy
+## Author: Leizy
+## Version: alpha
+## Notes: oUF
+## Dependencies: oUF
+
+config.lua
+core.lua

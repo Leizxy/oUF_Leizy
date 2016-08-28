@@ -34,7 +34,11 @@ media = {
 	texture_1 = "Interface\\Buttons\\WHITE8x8",
 	texture_2 = "Interface\\AddOns\\oUF_Leizy\\textures\\statusbar",
 	texture_3 = "Interface\\AddOns\\oUF_Leizy\\textures\\glow",
-	texture_4 = "Interface\\AddOns\\oUF_Leizy\\textures\\texture"
+	texture_4 = "Interface\\AddOns\\oUF_Leizy\\textures\\texture",
+	texture_5 = "Interface\\AddOns\\oUF_Leizy\\textures\\tga",
+	texture_6 = "Interface\\AddOns\\oUF_Leizy\\textures\\tga2",
+	texture_7 = "Interface\\AddOns\\oUF_Leizy\\textures\\tga3",
+	texture_8 = "Interface\\AddOns\\oUF_Leizy\\textures\\test"
 }
 
 data.boolean = boolean

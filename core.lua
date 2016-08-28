@@ -14,9 +14,9 @@ local function HealthBarStyle(self,unit)
 	--	Health
 	local Health = CreateFrame("StatusBar",BASENAME..unit.."_Health",self)
 	-- Health:SetFrameLevel(1)
-	Health:SetStatusBarTexture(Media.texture_1)
+	Health:SetStatusBarTexture(Media.texture_8)
 	Health.frequentUpdates = true
-	-- Health.colorTapping = true -- 非玩家会出错。这个值是什么意思
+	Health.colorTapping = true -- 非玩家会出错。这个值是什么意思
 	Health.colorDisconnected = true
 	Health.colorClass = true
 	Health.colorReaction = true
@@ -49,7 +49,7 @@ local function PowerBarStyle(self,unit)
 	--	Power
 	local Power = CreateFrame("StatusBar",BASENAME..unit.."_Power",self)
 	-- Power:SetFrameLevel(2)
-	Power:SetStatusBarTexture(Media.texture_4)
+	Power:SetStatusBarTexture(Media.texture_1)
 	Power.frequentUpdates = true
 	-- Power.colorTapping = true
 	Power.colorDisconnected = true
@@ -120,10 +120,10 @@ if Boolean.show_player then
 	oUF:Spawn("player","oUF_LeizyPlayer")
 end
 
-if Boolean.show_target then
-	oUF:RegisterStyle("oUF_LeizyTarget",ShareStyle)
-	oUF:SetActiveStyle("oUF_LeizyTarget")
-	oUF:Spawn("target","oUF_LeizyTarget")
-end
+-- if Boolean.show_target then
+	-- oUF:RegisterStyle("oUF_LeizyTarget",ShareStyle)
+	-- oUF:SetActiveStyle("oUF_LeizyTarget")
+	-- oUF:Spawn("target","oUF_LeizyTarget")
+-- end
 
 
